@@ -21,9 +21,9 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 public class CustomerIT {
 
-    public static final String CUSTOMER_URI = "/api/v1/customers";
     @Autowired
     private WebTestClient webTestClient;
+    public static final String CUSTOMER_URI = "/api/v1/customers";
 
     @Test
     void canRegisterCustomer() {
