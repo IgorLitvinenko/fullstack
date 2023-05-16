@@ -18,8 +18,8 @@
         <maven.comiler.source>17</maven.comiler.source>
         <maven.comiler.target>17</maven.comiler.target>
         <docker.username>82025</docker.username>
-<!--        <docker.image.name>amigoscode-api</docker.image.name>-->
-<!--        <docker.image.tag/>-->
+        <docker.image.name>amigoscode-api</docker.image.name>
+        <docker.image.tag/>
     </properties>
 
     <dependencies>
@@ -181,7 +181,7 @@
                         </platforms>
                     </from>
                     <to>
-                        <image>docker.io/${docker.username}/${project.artifactId}:${project.version}</image>
+                        <image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
                         <tags>
                             <tag>latest</tag>
                         </tags>
