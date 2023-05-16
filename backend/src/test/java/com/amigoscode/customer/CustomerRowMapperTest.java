@@ -14,6 +14,7 @@ class CustomerRowMapperTest {
     void mapRow() throws SQLException {
         //Given
         CustomerRowMapper customerRowMapper = new CustomerRowMapper();
+
         ResultSet resultSet = mock(ResultSet.class);
         when(resultSet.getInt("id")).thenReturn(1);
         when(resultSet.getInt("age")).thenReturn(34);

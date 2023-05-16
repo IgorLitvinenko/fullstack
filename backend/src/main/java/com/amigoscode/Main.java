@@ -26,6 +26,8 @@ public class Main {
         return args -> {
             customerRepository.save(user);
             //gfgf
+            //gf
+            //fdg
         };
     }
 }

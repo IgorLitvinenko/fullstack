@@ -24,14 +24,6 @@ class CustomerJDBCDataAccessServiceTest extends AbstractTestcontainers {
         );
     }
 
-//    Customer getCustomer() {
-//        return new Customer(
-//                FAKER.name().fullName(),
-//                FAKER.internet().safeEmailAddress() + " " + UUID.randomUUID(),
-//                20
-//        );
-//    }
-
     @Test
     void selectAllCustomers() {
         //Given
