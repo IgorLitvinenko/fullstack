@@ -64,6 +64,7 @@ jobs:
           version_description: ${{github.SHA}}
           region: ${{ secrets.EB_REGION }}
           deployment_package: backend/Dockerrun.aws.json
+          wait_for_environment_recovery: 300
       - name: Commit and push Dockerrun.aws.json
         run: |
           git config user.name github-actions
