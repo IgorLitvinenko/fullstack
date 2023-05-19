@@ -25,6 +25,8 @@ public class Main {
                 new Random().nextInt(16, 85));
         return args -> {
             customerRepository.save(user);
+
+
         };
     }
 }
